@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MY WEB</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <header>
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="img/logo1.png" alt="Logo">
+				</a>
+				
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="profil.html">ABOUT</a></li>
+					<li><a href="#">TEAM</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>	
+  </header>
+  
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	</ol>
+	
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<img src="img/slide/a.jpg" alt="slide 1">
+		</div>
+		<div class="item">
+			<img src="img/slide/b.jpg" alt="slide 2">
+		</div>
+		<div class="item">
+			<img src="img/slide/c.jpg" alt="slide 3">
+		</div>
+	</div>
+	
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<img class="img-fluid img-responsive" src="img/about1.jpg" alt="">
+			</div>
+			<div class="col-lg-6">
+				<h1 class="tittle">ABOUT</h1>
+				<p>Otomotif adalah ilmu yang mempelajari tentang alat-alat transportasi darat yang menggunakan mesin, terutama mobil dan sepeda motor.</p>
+				<h1 class="tittle">MODE OTOMOTIF</h1>
+				<ul>
+					<li>Road Race</li>
+					<li>Drag Bike</li>
+					<li>Slalom</li>
+					<li>Offroad</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="team">
+	<div class="container">
+		<h1 class="tittle text-center color-white">TEAM</h1>
+		<div class="col-lg-4">
+			<img class="img-responsive img-circle img-center" src="img/teams/wat1.jpg" alt="Team">
+			<div class="team-name">
+				<p class="text-center"><strong>Suzuka, Jepang</strong></p>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<img class="img-responsive img-circle img-center" src="img/teams/wat2.jpg" alt="Team">
+			<div class="team-name">
+				<p class="text-center"><strong>Sentul, Indonesia</strong></p>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<img class="img-responsive img-circle img-center" src="img/teams/wat3.jpg" alt="Team">
+			<div class="team-name">
+				<p class="text-center"><strong>Chang, Thailand</strong></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="portfolio">
+	<div class="container">
+		<h1 class="tittle text-center color-white">PORTFOLIO</h1>
+		
+		<div class="row">
+			<div class="col-lg-3 col-sn-6 box-portfolio">
+				<a href="#"><img class="responsive" src="img/projects/a.jpg" alt="Projects"></a>
+				<div class="portfolio-tittle">
+					<h3 class="text-center">Road Race</h3>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sn-6 box-portfolio">
+				<a href="#"><img class="responsive" src="img/projects/b.jpg" alt="Projects"></a>
+				<div class="portfolio-tittle">
+					<h3 class="text-center">Drag Bike</h3>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sn-6 box-portfolio">
+				<a href="#"><img class="responsive" src="img/projects/c.jpg" alt="Projects"></a>
+				<div class="portfolio-tittle">
+					<h3 class="text-center">Slalom</h3>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sn-6 box-portfolio">
+				<a href="#"><img class="responsive" src="img/projects/d.jpg" alt="Projects"></a>
+				<div class="portfolio-tittle">
+					<h3 class="text-center">Offroad</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+         <div class="col-sm-12 text-center">
+           <h2>CONTACT</h2>
+           <hr>
+         </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <form>
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" class="form-control" placeholder="Masukan Nama">
+              </div>
+              <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="Email" id="Email" class="form-control" placeholder="Masukan Email">
+              </div>
+              <div class="form-group">
+                <label for="telp">No Telepon</label>
+                <input type="tel" id="telp" class="form-control" placeholder="Masukan No Telepon">
+              </div>
+                <div class="form-group">
+                  <label for="Pesan">Pesan</label>
+                  <textarea class="form-control" rows="10" placeholder="Masukan Pesan"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+<footer>
+	<div class="container">
+		<div class="text-center">Muhammad Rizki Aswandi - 2019</div>
+	</div>
+</footer>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
